@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(19, 41, 61);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: solid;
+    height: 1100px;
+    width: 70%;
+    background-color: aliceblue;
+}
+
+
+
+.meunome {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.curso {
+    text-align: center;
+    font-size: 50px;
+}
+
+.endereco {
+    text-align: center;
+    font-size: 50px;
+}
+
+.formacao {
+    text-align: center;
+    font-size: 50px;
+}
+
+.experiencia {
+    text-align: center;
+    font-size: 50px;
+}
+
+.contato {
+    text-align: center;
+    font-size: 50px;
+}
+
+.li {
+    font-size: 24px;
+}
+
+.b1 { /*caixa nome*/
+    border: solid ;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    width: 85%;
+    position: relative;
+    left: 7%;
+    
+}
+
+.b2 { /*caixa curso*/
+    border: solid ;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin-top: 2%;
+    position: relative;
+    left: 7%;
+}
+
+.b3 { /*caixa endereço*/
+    border: solid ;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    position: absolute;
+    left: 39%;
+    top: 30%    
+    
+    
+}
+
+.b4 { /*caixa formação*/
+    border: solid ;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    position: absolute;
+    left: 39%;
+    top: 55%;
+}
+
+.b5 { /*caixa experiencia*/
+    border: solid ;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    position: absolute;
+    left: 39%;
+    top: 80%;
+}
+
+.b6 { /*caixa contato*/
+    border: solid ;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    position: relative;
+    position: absolute;
+    left: 39%;
+    top: 108%;
+}
