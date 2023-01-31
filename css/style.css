@@ -7,9 +7,10 @@ body {
 
 .box {
     border: solid;
-    height: 1100px;
+    height: 1250px;
     width: 70%;
-    background-color: aliceblue;
+    background-color: rgb(232, 241, 242);
+    
 }
 
 
@@ -52,6 +53,7 @@ body {
 .b1 { /*caixa nome*/
     border: solid ;
     border-width: 5px;
+    border-color: rgb(19, 41, 61);
     background-color: rgb(255, 255, 255);
     margin-top: 2%;
     width: 85%;
@@ -64,21 +66,25 @@ body {
     border: solid ;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
+    border-color: rgb(19, 41, 61);
     width: 20%;
     margin-top: 2%;
+    position: absolute;
     position: relative;
     left: 7%;
+    height: 71%;
 }
 
 .b3 { /*caixa endereço*/
     border: solid ;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
+    border-color: rgb(19, 41, 61);
     width: 40%;
     position: relative;
     position: absolute;
     left: 39%;
-    top: 30%    
+    top: 42%    
     
     
 }
@@ -87,17 +93,7 @@ body {
     border: solid ;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
-    width: 40%;
-    position: relative;
-    position: absolute;
-    left: 39%;
-    top: 55%;
-}
-
-.b5 { /*caixa experiencia*/
-    border: solid ;
-    border-width: 5px;
-    background-color: rgb(255, 255, 255);
+    border-color: rgb(19, 41, 61);
     width: 40%;
     position: relative;
     position: absolute;
@@ -105,13 +101,40 @@ body {
     top: 80%;
 }
 
-.b6 { /*caixa contato*/
+.b5 { /*caixa experiencia*/
     border: solid ;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
+    border-color: rgb(19, 41, 61);
     width: 40%;
     position: relative;
     position: absolute;
     left: 39%;
-    top: 108%;
+    top: 118%;
 }
+
+.b6 { /*caixa contato*/
+    border: solid ;
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(19, 41, 61);
+    width: 40%;
+    position: relative;
+    position: absolute;
+    left: 39%;
+    top: 160%;
+}
+
+.botao {
+    border-radius: 50%;
+    border-width: 5px;
+    width: 80px;
+    height: 80px;
+    border-color: rgb(19, 41, 61);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    position: absolute;
+    left: 50%;
+}
+
+
