@@ -7,12 +7,11 @@ body {
 
 .box {
     border: solid;
-    height: 1250px;
+    height: 1550px;
     width: 70%;
     background-color: rgb(232, 241, 242);
     
 }
-
 
 
 .meunome {
@@ -67,12 +66,12 @@ body {
     border-width: 5px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(19, 41, 61);
-    width: 20%;
-    margin-top: 2%;
+    width: 200px;
+    margin-top: 30px;
     position: absolute;
     position: relative;
-    left: 7%;
-    height: 71%;
+    left: 80px;
+    height: 800px;
 }
 
 .b3 { /*caixa endereço*/

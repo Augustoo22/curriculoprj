@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(19, 41, 61);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+
+.boxA {   
+        border: solid;
+        height: 1250px;
+        width: 800px;
+        background-color: rgb(232, 241, 242);
+        position: relative;
+        left: 400px;
+}
+
+.b1 {
+    display: flex;
+}
+
+.Perfil{
+    
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+} 
