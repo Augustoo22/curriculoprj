@@ -72,7 +72,7 @@ body {
     border-color: rgb(19, 41, 61);
     background-color: rgb(255, 255, 255);
     position: relative;
-    position: absolute;
-    left: 730px;
-    top: 700px;
+    left: 500px;
+    top: 7px;
+    cursor: pointer;
 }
