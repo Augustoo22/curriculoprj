@@ -3,6 +3,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 .box {
@@ -11,7 +12,6 @@ body {
     width: 1100px;
     background-color: rgb(232, 241, 242);
 }
-
 
 .meunome {
     text-align: center;
@@ -71,10 +71,11 @@ body {
     background-color: rgb(255, 255, 255);
     border-color: rgb(19, 41, 61);
     width: 200px;
+    height: 900px;
     position: relative;
     top: 15px;
     left: 75px;
-    height: 900px;
+   
 }
 
 .b3 { /*caixa endereço*/
