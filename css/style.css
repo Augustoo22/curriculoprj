@@ -1,140 +1,113 @@
 body {
     background-color: rgb(19, 41, 61);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
 
-.box {
+main {
     border: solid;
-    height: 1300px;
+    height: 1200px;
     width: 1100px;
     background-color: rgb(232, 241, 242);
 }
 
-
-.meunome {
+h1 {
     text-align: center;
     font-size: 50px;
-    
 }
 
-.nascimento {
+p {
     position: relative;
-    left: 170px;
+    left: 130px;
 }
 
-.curso {
-    text-align: center;
-    font-size: 50px;
+li {
+    font-size: 20px;
 }
 
-.endereco {
-    text-align: center;
-    font-size: 50px;
-}
-
-.formacao {
-    text-align: center;
-    font-size: 50px;
-}
-
-.experiencia {
-    text-align: center;
-    font-size: 50px;
-}
-
-.contato {
-    text-align: center;
-    font-size: 50px;
-}
-
-.li {
-    font-size: 24px;
-}
-
-.b1 { /*caixa nome*/
-    border: solid ;
+header {
+    border: solid;
     border-width: 5px;
     border-color: rgb(19, 41, 61);
     background-color: rgb(255, 255, 255);
-    margin-top: 2%;
-    width: 85%;
-    position: relative;
-    left: 7%;
-    
+    margin-top: 10px;
+    width: 900px;
+    margin-left: 95px;
 }
 
-.b2 { /*caixa curso*/
-    border: solid ;
+
+
+section {
+    border: solid;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(19, 41, 61);
     width: 200px;
-    position: relative;
-    top: 15px;
-    left: 75px;
     height: 900px;
+    margin-top: 15px;
+    margin-left: 95px;
 }
 
-.b3 { /*caixa endereço*/
-    border: solid ;
+aside {
+    margin-left: 320px;
+    position: relative;
+    bottom: 900px;
+}
+
+.endereco {
+    border: solid;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(19, 41, 61);
     width: 660px;
-    position: relative;
-    top: -895px;
-    left: 350px;
-    
-    
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: -9px;
 }
 
-.b4 { /*caixa formação*/
-    border: solid ;
+.formacao {
+    border: solid;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(19, 41, 61);
     width: 660px;
-    position: relative;
-    left: 350px;
-    top: -850px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 9px;
 }
 
-.b5 { /*caixa experiencia*/
-    border: solid ;
+.experiencia {
+    border: solid;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(19, 41, 61);
     width: 660px;
-    position: relative;
-    left: 350px;
-    top: -830px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 19px;
 }
 
-.b6 { /*caixa contato*/
-    border: solid ;
+.contato {
+    border: solid;
     border-width: 5px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(19, 41, 61);
     width: 660px;
-    position: relative;
-    left: 350px;
-    top: -810px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 40px;
 }
 
-.botao  {
+button {
     border-radius: 50%;
     border-width: 5px;
     width: 80px;
     height: 80px;
     border-color: rgb(19, 41, 61);
     background-color: rgb(255, 255, 255);
-    position: relative;
-    left: 500px;
-    top: -800px;
+    margin-left: 180px;
+    margin-right: 180px;
     cursor: pointer;
 }
-
-
-
